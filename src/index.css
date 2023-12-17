@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+  .center-items {
+    @apply flex justify-center  items-center;
+  }
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(24,30,42);
+}
